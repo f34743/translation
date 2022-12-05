@@ -65,3 +65,23 @@
 第二十三章，图形硬件。
 
 第二十四章，未来。 猜猜我们要做什么。
+
+由于篇幅限制，我们在realtimerendering.com上提供了一个关于碰撞检测的免费章节，以及关于线性代数和三角函数的附录。
+
+## 1.2 符号和定义
+首先，我们会解释这本书所用到的数学符号。要了解本节以及本书中使用的术语的更全面解释，请访问realtimerendering.com获取我们的线性代数附录。
+
+### 1.2.1 数学符号
+表1.1总结了我们将使用的大部分数学符号。这里将详细描述其中的一些概念。
+
+需要注意，表中的规则有一些例外，主要是使用文献中非常完善的表示法的阴影方程。例如，${L}$表示辐射度（radiance），${E}$表示辐照度（irradiance），$\sigma_s$表示散射系数（scattering coefficient）。
+
+角度（angles）和标量（scalars）取自，也就是说他们是实数。向量（vectors）和点（points）用粗体小写字母表示，这些分量（components）可以通过这样获得$v = $，也就是列向量格式（column vector），这是计算机图形世界中常用的格式。有些地方我们用$$代替形式上正确的列向量格式，因为前者更加容易阅读。
+
+表1.1 本书所使用的数学符号总结
+| 类型（Type） | 符号（Notation） | 例子（Examples） |
+| -- | -- | -- |
+| 角度（angle） | 小写希腊文（lowercase Greek） |  |
+| 标量（scalar） | 小写斜体（lowercase italic） | |
+| 向量或点（vector or point） | 小写粗体（lowercase bold） | |
+| 
